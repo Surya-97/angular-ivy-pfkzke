@@ -1,0 +1,32 @@
+{
+    "data": [
+      {
+        "productName": "Blue Embroidery Satin Saree",
+        "image": "https://imagemod.syteapi.com/v2/thumbnail?width=350&url=https://www.nalli.com/media/catalog/product/b/e/be1128271_m.jpg",
+        "productDescription": "Blue Embroidery Satin Saree",
+        "price": 1890,
+        "rating": 1
+      },
+      {
+        "productName": "Orange Pink Kanchipuram Saree",
+        "image": "https://5wdh3u-6n6fd8fbvtn9.cloudmaestro.com/kgEvDenNB/media/catalog/product/cache/f55468a679d115c0d94faa9bc514ef66/b/e/be1119716_pp_2.jpg.pagespeed.ce.5YKgwJmu7o.jpg",
+        "productDescription": "Orange Pink Kanchipuram Saree",
+        "price": 1090,
+        "rating": 4
+      },
+      {
+        "productName": "Purple Banarasi saree",
+        "image": "https://2o19nx-6n6fd8fbvtn9.cloudmaestro.com/kgEvDenNB/media/catalog/product/cache/f55468a679d115c0d94faa9bc514ef66/b/e/be1133386_pp.jpg.pagespeed.ce.G1g4m42nmN.jpg",
+        "productDescription": "Purple Banarasi saree",
+        "price": 2890,
+        "rating": 2
+      },
+      {
+        "productName": "Maroon Embroidery Satin Saree",
+        "image": "https://yxnihz-6n6fd8fbvtn9.cloudmaestro.com/kgEvDenNB/media/catalog/product/cache/f55468a679d115c0d94faa9bc514ef66/b/e/abe1150296_m.jpg.pagespeed.ic.SWavgP7XuX.webp",
+        "productDescription": "Maroon Embroidery Satin Saree",
+        "price": 1190,
+        "rating": 1
+      }
+    ]
+}

@@ -1,0 +1,49 @@
+p {
+  font-family: Lato;
+}
+
+.text-header {
+  margin-top: 20px;
+}
+
+section {
+  margin-top: 10px;
+}
+
+a.add_cart {
+  color: #ff3368;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  margin-top: 10px;
+}
+
+i.fa.fa-shopping-cart.cart-icon {
+  float: right;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000;
+}
+
+.header-logo {
+  margin-right: 20px;
+  color: brown;
+}
+
+.img_position {
+  height: 300px;
+  width: 300px;
+}
+
+@media only screen and (max-width: 500px) {
+  .img_position {
+    width: 411px !important;
+    height: 350px;
+  }
+
+  .col-lg-3.col-sm-12.col-md-6 {
+    padding: 10px;
+  }
+}

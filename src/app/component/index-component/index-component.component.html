@@ -1,0 +1,174 @@
+<div class="card bg-dark text-white" style="margin-top: 0px !important">
+  <img src="https://2o19nx-6n6fd8fbvtn9.cloudmaestro.com/kgEvDenNB/media/pagewidgetblocks/aTussar-Banner-04062021-Web.jpg.pagespeed.ic.RQBrXuauv_.webp" class="card-img" alt="...">
+</div>
+
+<!-- Banner :: start-->
+<section class="product_list section_padding">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        <div class="section_tittle text-center text-header">
+          <h2> TRENDIND NOW </h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="product_list_slider owl-carousel">
+          <div class="single_product_list_slider">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-lg-3 col-sm-12 col-md-6" *ngFor="let data of bannerData">
+                <div class="single_product_item">
+                  <img  class="img_position" src="{{ data.image }}" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Banner :: end -->
+
+<!-- NEW ARRIVAL :: start-->
+<section class="product_list section_padding">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        <div class="section_tittle text-center text-header">
+          <h2> NEW ARRIVAL </h2>
+        </div>
+      </div>
+    </div>
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="product_list_slider owl-carousel">
+              <div class="single_product_list_slider">
+                <div class="row align-items-center justify-content-between">
+                  <div class="col-lg-3 col-sm-12 col-md-6" *ngFor="let data of productData">
+                    <div class="carousel-item active">
+                      <img class="img_position" src="{{ data.image }}" alt="">
+                      <div class="single_product_text">
+                        <h5>{{ data.productName }}</h5>
+                        <p>{{ data.price | currency: 'INR' }}</p>
+                        <a class="add_cart" (click)="onCart()">+ add to
+                          cart<i class="fa fa-shopping-cart cart-icon"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+    </div>
+  </div>
+</section>
+<!-- NEW ARRIVAL :: end -->
+
+
+<!-- product_list start-->
+<section class="product_list section_padding">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        <div class="section_tittle text-center text-header">
+          <h2> RECENTLY VIEWED </h2>
+        </div>
+      </div>
+    </div>
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="product_list_slider owl-carousel">
+              <div class="single_product_list_slider">
+                <div class="row align-items-center justify-content-between">
+                  <div class="col-lg-3 col-sm-12 col-md-6" *ngFor="let data of productData">
+                    <div class="carousel-item active">
+                      <img class="img_position" src="{{ data.image }}" alt="" >
+                      <div class="single_product_text">
+                        <h5>{{ data.productName }}</h5>
+                        <p>{{ data.price | currency: 'INR' }}</p>
+                        <a class="add_cart" (click)="onCart()">+ add to
+                          cart<i class="fa fa-shopping-cart cart-icon"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+    </div>
+  </div>
+</section>
+<!-- Product lisr :: end -->
+
+<!-- product_list start-->
+<section class="product_list section_padding">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        <div class="section_tittle text-center text-header">
+          <h2> SIMILAR PRODUCTS </h2>
+        </div>
+      </div>
+    </div>
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="product_list_slider owl-carousel">
+              <div class="single_product_list_slider">
+                <div class="row align-items-center justify-content-between">
+                  <div class="col-lg-3 col-sm-12 col-md-6" *ngFor="let data of productData">
+                    <div class="carousel-item active">
+                      <img src="{{ data.image }}" alt="" class="img_position">
+                      <div class="single_product_text">
+                        <h5>{{ data.productName }}</h5>
+                        <p>{{ data.price | currency: 'INR' }}</p>
+                        <a class="add_cart" (click)="onCart()">+ add to
+                          cart<i class="fa fa-shopping-cart cart-icon"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+    </div>
+  </div>
+</section>
+<!-- Product lisr :: end -->
